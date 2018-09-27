@@ -1,5 +1,7 @@
 function produceDrivingRange(blockRange) {
   return function range (a , b) {
-    if (blockRange >)
+    if (Math.abs(a-b) > blockRange) {
+      return ""
+    }
   }
 }
